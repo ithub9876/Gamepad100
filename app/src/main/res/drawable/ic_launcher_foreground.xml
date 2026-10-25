@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Gamepad Outer Body -->
+    <path
+        android:fillColor="#1E293B"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:pathData="M 33,36 C 40,34 68,34 75,36 C 81,38 88,48 85,67 C 83,78 78,82 72,82 C 67,82 63,77 59,71 C 56,66 52,66 49,71 C 45,77 41,82 36,82 C 30,82 25,78 23,67 C 20,48 27,38 33,36 Z" />
+
+    <!-- Top Triggers / Bumpers indicator -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M 34,32 C 37,30 46,30 48,32 L 46,35 L 35,35 Z" />
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M 60,32 C 62,30 71,30 74,32 L 73,35 L 62,35 Z" />
+
+    <!-- D-Pad (Left side) -->
+    <path
+        android:fillColor="#0F172A"
+        android:strokeColor="#64748B"
+        android:strokeWidth="0.8"
+        android:pathData="M 37,47 L 41,47 L 41,43 L 45,43 L 45,47 L 49,47 L 49,51 L 45,51 L 45,55 L 41,55 L 41,51 L 37,51 Z" />
+
+    <!-- Action Buttons (Right side - Diamond layout) -->
+    <!-- Y (Top) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 69,45 A 2 2 0 1 0 69 41 A 2 2 0 1 0 69 45 Z" />
+    <!-- X (Left) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 64,50 A 2 2 0 1 0 64 46 A 2 2 0 1 0 64 50 Z" />
+    <!-- B (Right) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 74,50 A 2 2 0 1 0 74 46 A 2 2 0 1 0 74 50 Z" />
+    <!-- A (Bottom) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 69,55 A 2 2 0 1 0 69 51 A 2 2 0 1 0 69 55 Z" />
+
+    <!-- Dual Thumbsticks (Bottom left & Bottom right) -->
+    <path
+        android:fillColor="#0F172A"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1"
+        android:pathData="M 45,63 A 4.5 4.5 0 1 0 45 54 A 4.5 4.5 0 1 0 45 63 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 45,60 A 2 2 0 1 0 45 56 A 2 2 0 1 0 45 60 Z" />
+
+    <path
+        android:fillColor="#0F172A"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1"
+        android:pathData="M 63,63 A 4.5 4.5 0 1 0 63 54 A 4.5 4.5 0 1 0 63 54 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 63,60 A 2 2 0 1 0 63 56 A 2 2 0 1 0 63 60 Z" />
+
+    <!-- Center LED / Home indicator -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 54,49 A 1.8 1.8 0 1 0 54 45.4 A 1.8 1.8 0 1 0 54 49 Z" />
+</vector>

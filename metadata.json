@@ -1,0 +1,6 @@
+{
+  "name": "Gamepad PC",
+  "description": "Landscape Android Wi-Fi gamepad for controlling PC games with customizable layout and WebSocket streaming.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
